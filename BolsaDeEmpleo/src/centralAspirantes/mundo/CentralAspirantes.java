@@ -66,15 +66,6 @@ public class CentralAspirantes {
         return aspirantes;
     }
 
-    /**
-     * Retorna el número de aspirantes
-     *
-     * @return El número de aspirantes
-     */
-    public int darNumeroAspirantes() {
-        return aspirantes.size();
-    }
-
     public Aspirante localizar(int cedula) throws Exception {
         ConnectionSource source = ObtenerConnectionSource();
         Dao<Aspirante, Integer> aspiranteDao = DaoManager.createDao(source, Aspirante.class);

@@ -69,9 +69,9 @@ public class InterfazPrincipal extends JFrame {
 
         refrescarListaAspirantes();
 
-        //setLocationRelativeTo(null);
+        setLocationRelativeTo(null);
 
-        //pack();
+        pack();
     }
 
     public void refrescarListaAspirantes() throws Exception {
