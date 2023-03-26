@@ -32,12 +32,15 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/ASUS/Documents/GitHub/BolsaDeEmpleo/BolsaDeEmpleo/src/centralPacientes/interfaz"
+    "last_opened_file_path": "C:/Users/ASUS/Documents/GitHub/BolsaDeEmpleo/BolsaDeEmpleo/lib/ormlite-jdbc-6.1.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="InterfazPrincipal" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="centralPacientes.interfaz.InterfazPrincipal" />
+      <option name="MAIN_CLASS_NAME" value="centralAspirantes.interfaz.InterfazPrincipal" />
       <module name="BolsaDeEmpleo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -54,5 +57,16 @@
       <updated>1679831451791</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/centralAspirantes/interfaz/InterfazPrincipal.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
