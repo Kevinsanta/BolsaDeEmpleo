@@ -1,5 +1,6 @@
 package centralAspirantes.interfaz;
 
+import centralAspirantes.mundo.Aspirante;
 import centralAspirantes.mundo.YaExisteException;
 
 import javax.swing.*;
@@ -61,19 +62,19 @@ public class DialogoInsertarAspirante extends JDialog implements ActionListener 
         super(ventana, true);
         principal = ventana;
         setLayout(new GridBagLayout());
-        setPreferredSize(new Dimension(400, 307));
+        setPreferredSize(new Dimension(298, 307));
 
         setTitle("Bolsa de Empleo");
-        setResizable(true);
+        setResizable(false);
 
         // Panel para ingresar la información
         panelInformacion = new PanelInformacionAspirante();
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.gridx = 0;
         gbc.gridy = 0;
-        gbc.gridheight = 4;
-        gbc.gridwidth = 4;
-        gbc.fill = GridBagConstraints.HORIZONTAL;
+        gbc.gridheight = 7;
+        gbc.gridwidth=3;
+        gbc.fill = GridBagConstraints.BOTH;
         add(panelInformacion, gbc);
 
         // Panel con los botones de agregar - cancelar
@@ -104,7 +105,7 @@ public class DialogoInsertarAspirante extends JDialog implements ActionListener 
 
         gbc = new GridBagConstraints();
         gbc.gridx = 0;
-        gbc.gridy = 5;
+        gbc.gridy = 8;
         gbc.fill = GridBagConstraints.BOTH;
         add(panelBotones, gbc);
 

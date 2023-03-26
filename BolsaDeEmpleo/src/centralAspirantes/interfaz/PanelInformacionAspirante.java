@@ -92,11 +92,11 @@ public class PanelInformacionAspirante extends JPanel {
         add(etiquetaCedula, gbc);
 
         textoCedula = new JTextField();
-        textoCedula.setSize(300,300);
+        textoCedula.setColumns(10);
         gbc = new GridBagConstraints();
         gbc.gridx = 1;
         gbc.gridy = 0;
-        //gbc.gridwidth = 2;
+        gbc.gridwidth = 2;
         gbc.fill = GridBagConstraints.BOTH;
         add(textoCedula, gbc);
 
